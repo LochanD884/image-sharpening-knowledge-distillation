@@ -1,0 +1,19 @@
+Start
+  │
+  ├──> Load HR Images (DIV2K)
+  │
+  ├──> Degrade Images (Downscale + Noise)
+  │
+  ├──> Feed to Teacher (Real-ESRGAN)
+  │         │
+  │         ├──> Get Teacher Output (Super-resolved)
+  │
+  ├──> Feed Same Input to Student
+  │
+  ├──> Calculate L1 + Perceptual Loss
+  │
+  ├──> Backpropagate → Update Student
+  │
+  ├──> Evaluate: SSIM, PSNR
+  │
+  └──> Save Model
