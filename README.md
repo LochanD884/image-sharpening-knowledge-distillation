@@ -1,8 +1,6 @@
 # image-sharpening-knowledge-distillation
 Image sharpening using knowledge distillation with Real-ESRGAN teacher and custom student
 
-📌 Image Sharpening with Knowledge Distillation
-
 🗂️ Overview:
 
 Image Sharpening with Knowledge Distillation is a deep learning approach that leverages a powerful teacher model (Real-ESRGAN) and a lightweight student CNN to enhance degraded or low-resolution images. The goal is to distill the high-fidelity sharpening capability of the teacher into a smaller, faster student that can run efficiently on limited hardware.
