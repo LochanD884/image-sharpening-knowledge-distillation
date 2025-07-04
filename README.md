@@ -9,13 +9,13 @@ Image Sharpening with Knowledge Distillation is a deep learning approach that le
 
 This project demonstrates the use of:
 
-Super-resolution
+Super-resolution,
 
-Perceptual Loss
+Perceptual Loss,
 
-Knowledge Distillation
+Knowledge Distillation,
 
-High-to-low image translation
+High-to-low image translation,
 
 and is built to showcase how advanced deep learning methods can improve image quality in real-world scenarios like restoration, upscaling, or detail enhancement.
 
@@ -53,29 +53,25 @@ Includes custom degradation pipeline to create realistic blurred inputs.
 
 📏 Evaluation Metrics:
 
-PSNR (Peak Signal-to-Noise Ratio)
+PSNR (Peak Signal-to-Noise Ratio),
 
-SSIM (Structural Similarity Index)
+SSIM (Structural Similarity Index).
 
 ⚙️ Technology Stack:
 
-Language: Python 3.x
+Language: Python 3.x;
 
-Frameworks/Libraries: PyTorch, OpenCV, PIL, torchvision, Real-ESRGAN
+Frameworks/Libraries: PyTorch, OpenCV, PIL, torchvision, Real-ESRGAN;
 
-Notebook: Google Colab (GPU-accelerated)
+Notebook: Google Colab (GPU-accelerated);
 
-Dataset: DIV2K (High Resolution Images)
+Dataset: DIV2K (High Resolution Images).
 
 🚀 Usage:
 
 1️⃣ Clone the Repository:
 
-bash
-
-Copy
-
-Edit
+bash    Copy    Edit
 
 git clone https://github.com/yourusername/ImageSharpening-KD.git
 
